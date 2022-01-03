@@ -48,3 +48,36 @@ h2 {
     text-align: center;
     line-height: 35px;
 }
+
+
+/*======Styling The What We Do Section=======*/
+.whatWeDo {
+    text-align: center;
+    height: 65rem;
+}
+
+.doColumns {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+#design {
+    display: none;
+}
+
+#development {
+    display:none;
+}
+
+#productManagement {
+    display: none;
+}
+
+.portfolio {
+    width: 100%;
+}
+
+.portfolio h3 {
+    font-weight: 530;
+}
