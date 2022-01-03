@@ -2,12 +2,16 @@
 .heading {
     background-image: url(/assets/backgrounds/header.jpg);
     background-size: cover;
-    height: 50rem;
+    height: 55rem;
     background-repeat: no-repeat;
     color: #fff;
     text-align: center;
     padding-top: 150px;
     line-height: 30px;
+}
+
+.heading img {
+    padding-top: 220px;
 }
 
 .header{
