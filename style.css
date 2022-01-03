@@ -17,7 +17,22 @@
     font-weight: 1000;
 }
 
+.far {
+    z-index: 2; 
+    position: absolute;
+    top: 270px;
+    left: 745px;
+    font-size: 100px;
+
 h2 {
     padding-top: 50px;
     text-align: center;
+}
+
+
+/*=======Styling The About Section========*/
+.d-flex {
+    text-align: center;
+    line-height: 25px;
+    height: 15rem;
 }
