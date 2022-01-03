@@ -2,7 +2,7 @@
 
 ##### By Samuel-Muriuki
 
-![Website Image](assets/imgs/Delani-Studio.jpg)
+![Website Image](/imgs/Delani-Studio.jpg)
 ### It is a description of the Website page.
 
 ## Table of Contents
