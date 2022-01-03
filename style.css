@@ -126,3 +126,19 @@ h2 {
 textarea.form-control {
     height: 300px;
 }
+
+
+/*======Styling The Footer Section=======*/
+footer {
+    text-align: center;
+    padding: 40px;;
+}
+
+footer img {
+    padding: 10px;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
