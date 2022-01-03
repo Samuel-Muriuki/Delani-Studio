@@ -23,6 +23,7 @@
     top: 270px;
     left: 745px;
     font-size: 100px;
+}    
 
 h2 {
     padding-top: 50px;
@@ -35,4 +36,15 @@ h2 {
     text-align: center;
     line-height: 25px;
     height: 15rem;
+}
+
+
+/*======Styling The Services Section=======*/
+.services {
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 20rem;
+    text-align: center;
+    line-height: 35px;
 }
