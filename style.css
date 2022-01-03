@@ -91,3 +91,38 @@ h2 {
     height: 300px;
     padding: 10px 5px;
 }
+
+
+/*=======Styling The Contact Section========*/
+.contact {
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 50rem;
+}
+
+.contact h2 {
+    padding: 60px 0px 0px 0px;
+}
+
+.form-row {
+    padding: 30px 150px;
+}
+
+.form-group {
+    padding: 30px 120px;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.form-control {
+    background: transparent;
+}
+
+textarea.form-control {
+    height: 300px;
+}
