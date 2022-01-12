@@ -45,7 +45,7 @@ h2 {
 
 /*======Styling The Services Section=======*/
 .services {
-    background-image: url(/imgs/backgrounds/s_image.jpg);
+    background-image: url("imgs/backgrounds/s_image.jpg");
     background-size: cover;
     color: #fff;
     height: 20rem;
