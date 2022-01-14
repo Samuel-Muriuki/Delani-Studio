@@ -1,19 +1,19 @@
 $(document).ready(function () {
-  $(".hover").hover(function () {
+  $(".hover").click(function () {
     $("#design").toggle();
     $("#designImg").toggle();
   });
 });
 
 $(document).ready(function () {
-  $(".hover1").hover(function () {
+  $(".hover1").click(function () {
     $("#development").toggle();
     $("#developmentImg").toggle();
   });
 });
 
 $(document).ready(function () {
-  $(".hover2").hover(function () {
+  $(".hover2").click(function () {
     $("#productManagement").toggle();
     $("#productManagementImg").toggle();
   });
