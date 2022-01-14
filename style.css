@@ -1,6 +1,6 @@
 /*=========Styling The Heading Section=========*/
 .heading {
-    background-image: url(../Delani-Studio/imgs/backgrounds/header.jpg);
+    background-image: url(/imgs/backgrounds/header.jpg);
     background-size: cover;
     height: 55rem;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ h2 {
 
 /*======Styling The Services Section=======*/
 .services {
-    background-image: url(../Delani-Studio/imgs/backgrounds/s_image.jpg);
+    background-image: url(/imgs/backgrounds/s_image.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -98,10 +98,23 @@ h2 {
     padding: 10px 5px;
 }
 
+.portfolioText {
+    display: none;
+    background-color: rgba(61, 196, 20, 0.5);
+    color: #fff;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 
 /*=======Styling The Contact Section========*/
 .contact {
-    background-image: url(../Delani-Studio/imgs/backgrounds/c_image.jpg);
+    background-image: url(/imgs/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -147,4 +160,88 @@ footer img {
 footer p {
     margin-top: 20px;
     margin-bottom: 1px;
+}
+
+
+
+
+
+
+
+@media screen and  (min-width: 400px) {
+       .portfolioText {
+        padding: 5px;
+    }
+
+
+    .firstPortfolioRow img {
+       height: 100px;
+    }
+
+    .secondPortfolioRow img {
+        height: 100px;
+    }
+
+    .whatWeDo {
+        height: 48rem;
+    }
+}
+
+@media screen and  (min-width: 780px) {
+    .portfolioText {
+        padding: 5px;
+    }
+
+
+    .firstPortfolioRow img {
+       height: 135px;
+    }
+
+    .secondPortfolioRow img {
+        height: 135px;
+    }
+
+    .whatWeDo {
+        height: 50rem;
+    }
+}
+
+
+@media screen and  (min-width: 960px) {
+    .portfolioText {
+        padding: 10px;
+    }
+
+
+    .firstPortfolioRow img {
+       height: 172px;
+    }
+
+    .secondPortfolioRow img {
+        height: 172px;
+    }
+
+    .whatWeDo {
+        height: 53rem;
+    }
+}
+
+
+@media screen and  (min-width: 1580px) {
+    .portfolioText {
+        padding: 20px;
+    }
+
+
+    .firstPortfolioRow img {
+       height: 300px;
+    }
+
+    .secondPortfolioRow img {
+        height: 300px;
+    }
+
+    .whatWeDo {
+        height: 69rem;
+    }
 }
