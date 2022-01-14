@@ -22,3 +22,11 @@ $(document).ready(function () {
 jQuery("button").click(function () {
   alert("Your response has been received");
 });
+
+
+$(document).ready(function () {
+  $(".hov1").hover(function () {
+    $("#imgHov1").toggle();
+    $("#").toggle();
+  });
+});
