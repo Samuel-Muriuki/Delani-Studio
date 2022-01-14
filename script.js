@@ -27,6 +27,6 @@ jQuery("button").click(function () {
 $(document).ready(function () {
   $(".hov1").hover(function () {
     $("#imgHov1").toggle();
-    $("#").toggle();
+    $("#pHov1").toggle();
   });
 });
